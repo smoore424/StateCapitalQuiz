@@ -10,7 +10,6 @@ import UIKit
 class ResultViewController: UIViewController {
 
     let defaults = UserDefaults.standard
-    
     var score = Int()
     
     @IBOutlet weak var finalScoreLabel: UILabel!

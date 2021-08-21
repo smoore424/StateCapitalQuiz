@@ -27,6 +27,9 @@
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Idaho" translatesAutoresizingMaskIntoConstraints="NO" id="MHX-sk-m12">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
+                                                        <accessibility key="accessibilityConfiguration" hint="Image of the current State">
+                                                            <bool key="isElement" value="YES"/>
+                                                        </accessibility>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="160" id="Ztg-j0-KzN"/>
                                                             <constraint firstAttribute="width" constant="414" id="bPV-3g-Pdc"/>
@@ -34,12 +37,14 @@
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="What is the Capital of: " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N22-eN-Hql">
                                                         <rect key="frame" x="134" y="175" width="146.5" height="17"/>
+                                                        <accessibility key="accessibilityConfiguration" hint="Question"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="CLe-Nl-Ziq">
                                                         <rect key="frame" x="107" y="207" width="200" height="44"/>
+                                                        <accessibility key="accessibilityConfiguration" hint="Enter your answer here"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="44" id="mhW-fK-hOr"/>
                                                             <constraint firstAttribute="width" constant="200" id="x1g-j9-O45"/>
@@ -49,6 +54,7 @@
                                                     </textField>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correct" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="slD-QD-z3Q">
                                                         <rect key="frame" x="182.5" y="266" width="49" height="17"/>
+                                                        <accessibility key="accessibilityConfiguration" hint="Feedback label"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -56,6 +62,7 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KCb-Yq-SwF" customClass="CustomButton" customModule="State_Capitals_Quiz" customModuleProvider="target">
                                                         <rect key="frame" x="107" y="298" width="200" height="44"/>
                                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                        <accessibility key="accessibilityConfiguration" hint="Click to check answer"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="44" id="Wzn-GH-eN7"/>
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="nRs-Eg-eoe"/>
@@ -68,6 +75,7 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeD-Dq-6VJ" customClass="CustomButton" customModule="State_Capitals_Quiz" customModuleProvider="target">
                                                         <rect key="frame" x="107" y="357" width="200" height="44"/>
                                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                        <accessibility key="accessibilityConfiguration" hint="Click to go to next screen"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="44" id="UV1-Xf-ztZ"/>
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="eni-4u-TgZ"/>

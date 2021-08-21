@@ -108,5 +108,5 @@ struct QuizBrain {
         let randomNumber = Int.random(in: 0...colors.count-1)
         return colors[randomNumber]
     }
-    
+
 }

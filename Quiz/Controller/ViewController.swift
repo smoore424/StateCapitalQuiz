@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     var avPlayer: AVAudioPlayer?
     var quizBrain = QuizBrain()
     
-
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var answerField: UITextField!
@@ -30,7 +29,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         setUI()
     }
-
+    
     @IBAction func showNextQuestion(_ sender: UIButton!) {
         if quizBrain.nextQuestion() {
             setUI()
@@ -77,6 +76,7 @@ class ViewController: UIViewController {
         
         imageView.image = UIImage(named: currentQuestion)?.withRenderingMode(.alwaysTemplate)
         imageView.tintColor = quizBrain.getRandomColor()
+        imageView.accessibilityValue = "image of \(currentQuestion)"
         
         feedbackLabel.text = ""
         title = quizBrain.getScore()
@@ -94,7 +94,6 @@ class ViewController: UIViewController {
         animation.keyPath = "position.x"
         animation.values = [0, 10, -10, 10, 0]
         animation.duration = 0.5
-        
         animation.isAdditive = true
         answerField.layer.add(animation, forKey: "shake")
     }
