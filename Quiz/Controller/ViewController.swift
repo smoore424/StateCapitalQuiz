@@ -100,8 +100,6 @@ class ViewController: UIViewController {
     }
     
     func playSound(for sound: String) {
-        
-        
         let path = Bundle.main.path(forResource: sound, ofType: nil)!
         let url = URL(fileURLWithPath: path)
         
