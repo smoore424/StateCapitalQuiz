@@ -18,6 +18,8 @@
 		0155625125AD174000F0EC01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0155624F25AD174000F0EC01 /* LaunchScreen.storyboard */; };
 		016B05882613E22500DB7A68 /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B05872613E22500DB7A68 /* QuizBrain.swift */; };
 		018A37BA2614A757001FF40B /* CustomCheckAnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018A37B92614A757001FF40B /* CustomCheckAnswerButton.swift */; };
+		01975CCB26E250B000C313AB /* SCQ1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 01975CCA26E250B000C313AB /* SCQ1.gif */; };
+		01975CCD26E250B600C313AB /* SCQ2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 01975CCC26E250B600C313AB /* SCQ2.gif */; };
 		01B5411025C0FA1B00E7368B /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B5410F25C0FA1B00E7368B /* DataModel.swift */; };
 		01EA920C2637B5F9006B2D54 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EA920B2637B5F9006B2D54 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +38,8 @@
 		0155625225AD174000F0EC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		016B05872613E22500DB7A68 /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
 		018A37B92614A757001FF40B /* CustomCheckAnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCheckAnswerButton.swift; sourceTree = "<group>"; };
+		01975CCA26E250B000C313AB /* SCQ1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SCQ1.gif; sourceTree = "<group>"; };
+		01975CCC26E250B600C313AB /* SCQ2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SCQ2.gif; sourceTree = "<group>"; };
 		01B5410F25C0FA1B00E7368B /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		01EA920B2637B5F9006B2D54 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +99,7 @@
 				016B05852613E00900DB7A68 /* View */,
 				016B05862613E01000DB7A68 /* Controller */,
 				01358B2A26C4132100BD1B53 /* Supporting */,
+				01975CC726E2508B00C313AB /* Demo */,
 				0155625225AD174000F0EC01 /* Info.plist */,
 			);
 			path = Quiz;
@@ -126,6 +131,15 @@
 				01EA920B2637B5F9006B2D54 /* ResultViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		01975CC726E2508B00C313AB /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				01975CCA26E250B000C313AB /* SCQ1.gif */,
+				01975CCC26E250B600C313AB /* SCQ2.gif */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,7 +201,9 @@
 			files = (
 				011B53B726C8107100BC8EE4 /* wrong.mp3 in Resources */,
 				0155625125AD174000F0EC01 /* LaunchScreen.storyboard in Resources */,
+				01975CCB26E250B000C313AB /* SCQ1.gif in Resources */,
 				0155624E25AD174000F0EC01 /* Assets.xcassets in Resources */,
+				01975CCD26E250B600C313AB /* SCQ2.gif in Resources */,
 				011B53B626C8107100BC8EE4 /* correct.wav in Resources */,
 				0155624C25AD173C00F0EC01 /* Main.storyboard in Resources */,
 			);
