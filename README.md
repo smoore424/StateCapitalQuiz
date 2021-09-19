@@ -3,6 +3,8 @@
 A game to help students learn and spell the US State Capitals.
 
 ![](/Demo/SCQ1.gif)
+
+
 ![](/Demo/SCQ2.gif)
 
 Features:
