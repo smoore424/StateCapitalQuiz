@@ -1,15 +1,18 @@
-
 # State Capitals Quiz
 
-A game to help students learn and spell the state capitals.
+A game to help students learn and spell the US State Capitals.
 
-Technology Used:
-* MVC Design Pattern
+()[](/Demo/SCQ1.gif)
+()[](/Demo/SCQ2.gif)
+
+Features:
+* Accessability support: Dynamic Text and Voice Over
+* Dark Mode compatiable
+* Persistance, pick up were you left off in the game
+
+Technologies Used:
+* Swift 5
 * UIKit
-* UITextField
-* UIImage with rendering mode
-* Struct/Arrays
-* Storyboard - constraints & outlets.
-* Protocol & Delegates
-
+* AVAudioPlayer
+* Core Animation
 
